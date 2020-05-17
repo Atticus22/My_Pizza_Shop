@@ -1,0 +1,137 @@
+/* utility classes */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0px 20px;
+  margin: auto;
+}
+
+.text-primary {
+  color: #db0000;
+}
+
+.bg-dark {
+  background-color: #1b1b1b;
+  color: grey;
+}
+
+.btn {
+  background: #db0000;
+  color: grey;
+  display: inline-block;
+  padding: 13px 20px;
+  border: none;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background: grey;
+  color: #db0000;
+}
+
+.btn-light {
+  background: grey;
+  color: #db0000;
+}
+
+.btn-light:hover {
+  background: #db0000;
+  color: black;
+}
+/* main styling */
+body {
+  background-color: #1b1b1b;
+  background-image: url(../My_Pizza_Shop/Images/showcase.jpg);
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Navbar */
+
+#navbar {
+  background-color: #1b1b1b;
+  overflow: auto;
+}
+#navbar h1 {
+  float: left;
+  padding-top: 15px;
+}
+#navbar .logo a {
+  color: #db0000;
+}
+#navbar ul {
+  float: right;
+  list-style: none;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  color: grey;
+  padding: 20px;
+  text-align: center;
+}
+
+#navbar ul li a:hover {
+  background-color: rgb(128, 128, 128);
+  color: red;
+}
+
+/* showcase */
+
+#showcase {
+  /* background-color: blue; */
+  background: url("../Images/showcase.jpg") no-repeat center center/cover;
+  height: 600px;
+}
+
+#showcase .showcase-content {
+  padding: 170px;
+  text-align: center;
+}
+
+#showcase .showcase-content h1 {
+  font-size: 50px;
+  color: #1b1b1b;
+  background-color: rgb(128, 128, 128, 0.5);
+}
+
+#showcase .showcase-content p {
+  padding-bottom: 20px;
+  color: #1b1b1b;
+  background-color: rgb(128, 128, 128, 0.5);
+}
+
+/* home-info */
+#home-info {
+  height: 500px;
+}
+
+#home-info .info-img {
+  float: left;
+  background: url(../Images/restaurant.jpg) center center/cover;
+  min-height: 85%;
+  width: 50%;
+}
+
+#home-info .info-content {
+  float: right;
+  text-align: center;
+  width: 50%;
+  padding: 60px 30px;
+}
+
+#home-info p {
+  padding: 30px;
+  color: grey;
+}
